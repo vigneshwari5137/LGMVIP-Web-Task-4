@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3{
+    color: orange;
+    font-size: 45px;
+}
+body{
+    background-color:lightgray;
+}
+.screen{
+  width: 320px;
+  height: 520px;
+  background-color:rgb(247, 247, 245);
+  top: 20px;
+}
+.result{
+    height: 120px;
+}
+.buttons{
+    height: 400px;
+}
+
+.history{
+    text-align: right;
+    height: 20px;
+   margin: 0 20px;
+    padding-top: 20px;
+    font-size: 18px;
+    color: black;
+}
+.output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 35px;
+    color: black;
+}
+.op, .num{
+    width: 50px;
+    height: 50px;
+    margin:15px;
+    float: left;
+    border-width: 0;
+    font-size: 20px;
+    background-color:rgb(247, 247, 245) ;
+    cursor: pointer;
+}
+#s{
+    color: rgb(250, 149, 7);
+    font-weight: bold;
+}
+#s1{
+    display: grid;
+    align-content: space-around;
+    color: rgb(250, 149, 7);
+    font-weight: bold;
+  
+}
+    
